@@ -17,6 +17,7 @@ header {
 
 h2 > a {
     background-color: red;
+    text-decoration: none;
 }
 
 nav {
@@ -36,4 +37,8 @@ ul {
 li {
     display: inline;
     padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
 }
