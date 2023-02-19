@@ -20,18 +20,10 @@ h2 > a {
 nav {
     grid-column-start: 2;
     grid-column-end: 5;
+    text-align: center;
 }
-/* 
-ul {
-} */
 
 li {
     display: inline;
     margin: 10px;
-}
-
-a {
-    display: inline;
-    justify-content: center;
-    align-content: center;
 }
