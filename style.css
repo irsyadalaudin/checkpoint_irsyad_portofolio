@@ -6,13 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
 header {
     background-color: darkturquoise;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
+    grid-template-columns: repeat(4, 330px);
     grid-template-rows: 100%;
     padding-left: 100px;
     padding-right: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 h2 > a {
