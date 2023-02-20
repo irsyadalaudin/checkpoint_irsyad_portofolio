@@ -93,6 +93,7 @@ a {
     grid-row-end: 5;
     align-self: center;
     margin-top: 180px;
+    margin-left: 0px;
     width: 120px;
 }
 
