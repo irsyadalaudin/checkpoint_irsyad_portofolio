@@ -123,3 +123,40 @@ a {
 #about-me > p {
     font-size: 18px;
 }
+
+
+/*  */
+#work {
+    min-height: 90vh;
+    background-color: rgb(58, 179, 173);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#work > h2 {
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#work > p {
+    font-size: 18px;
+}
+
+.img-1, .img-2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 32px;
+}
+
+.img-1 {
+    width: 140px;
+    height: 150px;
+}
+
+.img-2 {
+    width: 160px;
+    height: 150px;
+}
