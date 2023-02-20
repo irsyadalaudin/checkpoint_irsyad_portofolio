@@ -113,6 +113,7 @@ a {
 #about-me {
     min-height: 90vh;
     background-color: #D3D3D3;
+    padding-top: 72px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -133,6 +134,7 @@ a {
 #work {
     min-height: 90vh;
     background-color: #C0C0C0;
+    padding-top: 72px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -169,6 +171,7 @@ a {
 #resume {
     min-height: 125vh;
     background-color: #D3D3D3;
+    padding-top: 72px;
     padding-left: 150px;
     padding-right: 150px;
 }
