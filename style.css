@@ -22,6 +22,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 h2 > a {
@@ -34,12 +35,12 @@ nav {
     grid-column-end: 5;
 }
 
-ul {
+.ul-home {
     text-align: center;
     margin: 25px 0 0 300px;
 }
 
-li {
+.li-home {
     display: inline;
     padding: 0px 20px;
 }
@@ -188,7 +189,147 @@ a {
     width: 530px;
     height: 250px;
     margin-top: 30px;
-    margin-left: 30px;
-    padding-left: 32px;
     z-index: 1;
+}
+
+.a {
+    padding-left: 110px;
+}
+
+/*  */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 390px);
+    grid-template-rows: repeat(2, 300px);
+}
+
+#contact-info {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #DCDCDC;
+    padding-left: 150px;
+    width: 400px;
+}
+
+.ul-contact-info {
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.li-contact-info {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.p-contact-info {
+    font-size: 18px;
+    display: inline;
+    vertical-align:middle;
+}
+
+.img-contact-info {
+    height: 20px;
+    vertical-align:middle
+}
+
+.info {
+    margin-top: 20px;
+}
+
+#contact-info > h2 {
+    text-align: left;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.follow-me {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.logo-follow-me {
+    height: 20px;
+    display: inline;
+    box-sizing: border-box;
+}
+
+.instagram, .facebook {
+    padding-left: 10px;
+}
+
+/*  */
+#contact-me {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #C0C0C0;
+    margin-left: 160px;
+    width: 735px;
+    padding-right: 150px;
+    padding-left: 100px;
+}
+
+#contact-me > h2 {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+audio {
+    margin-left: 215px;
+    border-radius: 10px;
+}
+
+form {
+    margin-left: 200px;
+    font-size: 18px;
+    display: block;
+    /* margin-top: 15px; */
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+#label-name {
+    margin-left: 85px;
+}
+
+#phone-number {
+    margin-left: 5px;
+}
+
+#email {
+    margin-left: 90px;
+}
+
+#your-message {
+    margin-left: 13px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 317px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*  */
+footer {
+    padding-left: 150px;
+    background-color: #800020;
+    display:flex;
+    color: white;
 }

@@ -13,13 +13,13 @@
             <a href="#home">IRSYAD LOGO</a>    
         </h2>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact-me">Contact</a></li>
-                <li><a href="#contact-info"></a></li>
+            <ul class="ul-home">
+                <li class="li-home"><a href="#home">Home</a></li>
+                <li class="li-home"><a href="#about-me">About Me</a></li>
+                <li class="li-home"><a href="#work">Work</a></li>
+                <li class="li-home"><a href="#resume">Resume</a></li>
+                <li class="li-home"><a href="#contact-me">Contact</a></li>
+                <li class="li-home"><a href="#contact-info"></a></li>
             </ul>
         </nav>
     </header>
@@ -57,47 +57,41 @@
             <p>my latest project</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium voluptatum tempora fugit quae, dignissimos non consectetur provident obcaecati necessitatibus optio animi natus nesciunt repudiandae assumenda repellat omnis voluptatibus sed ea!</p>
             <img src="./img/resume-1.png" class="img-3" alt="resume-1">
-            <img src="./img/resume-2.png" class="img-3" alt="resume-2">
+            <img src="./img/resume-2.png" class="img-3 a" alt="resume-2">
             <img src="./img/resume-3.png" class="img-3" alt="resume-3">
-            <img src="./img/resume-4.png" class="img-3" alt="resume-4">
+            <img src="./img/resume-4.png" class="img-3 a" alt="resume-4">
         </div>
 
         <div class="container">
             <aside id="contact-info">
                 <h2>Contact Info</h2>
-                <ul>
-                    <li>
-                        <span>Jakarta, Indonesia</span>
+                <ul class="ul-contact-info">
+                    <li class="li-contact-info">
+                        <img class="img-contact-info" src="./img/city.png" alt="city">
+                        <p class="p-contact-info">Jakarta, Indonesia</p>
                     </li>
-                    <li>
+                    <li class="li-contact-info info">
+                        <img class="img-contact-info" src="./img/email.png" alt="email">
                         <span>irsyadalaudin491@gmail.com</span>
                     </li>
-                    <li>
+                    <li class="li-contact-info info">
+                        <img class="img-contact-info" src="./img/contact.png" alt="">
                         <span>+62 85236127748</span>
                     </li>
-                    <li>
+                    <li class="li-contact-info info">
+                        <img class="img-contact-info" src="./img/phone.png" alt="">
                         <span>+20 1554974856</span>
                     </li>
-                    <li>
-                        <span>www.loremipsum.com</span>
+                    <li class="li-contact-info info">
+                        <img class="img-contact-info" src="./img/web.png" alt="">
+                        <span>www.irsyadalaudin.com</span>
                     </li>
                 </ul>
                 
-                <h5>Follow Me :</h5>
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/">instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/">facebook</a>
-                    </li>
-                    <li>
-                        <a href="https://www.github.com/">github</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/">linkedin</a>
-                    </li>
-                </ul>
+                <h5 class="follow-me">Follow Me :</h5>
+                <img class="logo-follow-me github" src="./img/github.png" alt="">
+                <img class="logo-follow-me instagram" src="./img/instagram.png" alt="">
+                <img class="logo-follow-me facebook" src="./img/facebook.png" alt="">
             </aside>
 
             <div id="contact-me">
@@ -108,21 +102,21 @@
                         Please Check the audio Extension
                     </audio>
                     <form action="">
-                        <label>Name :</label>
-                        <input type="text" name="name" placeholder="Type Your Name">
-                        <br/>
+                        <label>Name :
+                            <input id="label-name" type="text" name="name" placeholder="Type Your Name">
+                        </label>
     
-                        <label>Phone Number :</label>
-                        <input type="number" name="number" placeholder="Type Your Phone Number">
-                        <br/>
+                        <label>Phone Number :
+                            <input id="phone-number" type="number" name="number" placeholder="Type Your Phone Number">
+                        </label>
                         
-                        <label>Email :</label>
-                        <input type="email" name="email" placeholder="Type Your Email">
-                        <br/>
+                        <label>Email :
+                            <input id="email" type="email" name="email" placeholder="Type Your Email">
+                        </label>
     
-                        <label>Your Message :</label>
-                        <input type="text" name="your message" placeholder="Type Your Message">
-                        <br/>
+                        <label>Your Message :
+                            <input id="your-message" type="text" name="your message" placeholder="Type Your Message">
+                        </label>
     
                         <button type="submit">Submit</button>
                     </form>
@@ -132,7 +126,7 @@
     </main>
 
     <footer>
-        <p id="footer">HTML &#169; 2023, Irsyad Alaudin Hariono</p>
+        <p>HTML &#169; 2023, Irsyad Alaudin Hariono</p>
     </footer>
 </body>
 </html>
