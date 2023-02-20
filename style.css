@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: darkturquoise;
+    background-color: #800020;
     display: grid;
     position: fixed;
     grid-template-columns: repeat(4, 330px);
@@ -46,6 +46,9 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 /*  */
@@ -54,7 +57,7 @@ a {
     display: grid;
     grid-template-columns: repeat(8, 100px);  /*  fit-content , minmax) */ 
     grid-template-rows: repeat(5, 100px);
-    background-color: lightseagreen;
+    background-color: #C0C0C0;
     align-content: center;
     padding-left: 150px;
 }
@@ -107,7 +110,7 @@ a {
 /*  */
 #about-me {
     min-height: 90vh;
-    background-color: rgb(68, 219, 211);
+    background-color: #D3D3D3;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -124,11 +127,10 @@ a {
     font-size: 18px;
 }
 
-
 /*  */
 #work {
     min-height: 90vh;
-    background-color: rgb(58, 179, 173);
+    background-color: #C0C0C0;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -159,4 +161,34 @@ a {
 .img-2 {
     width: 160px;
     height: 150px;
+}
+
+/*  */
+#resume {
+    min-height: 125vh;
+    background-color: #D3D3D3;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#resume > h2 {
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#resume > p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.img-3 {
+    width: 530px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-left: 32px;
+    z-index: 1;
 }
