@@ -301,6 +301,9 @@ label {
 
 input {
     border-radius: 10px;
+    height: 30px;
+    width: 290px;
+    font-size: 18px;
 }
 
 #label-name {
@@ -317,11 +320,12 @@ input {
 
 #your-message {
     margin-left: 20px;
+    height: 100px;
 }
 
 button {
     margin-top: 20px;
-    margin-left: 317px;
+    margin-left: 413px;
     width: 100px;
     border-radius: 10px;
 }
