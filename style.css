@@ -3,7 +3,7 @@
 );
     
 * {
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -94,7 +94,19 @@ a {
     align-self: center;
     margin-top: 180px;
     margin-left: 0px;
-    width: 120px;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: #C0C0C0;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#button-about-me:hover {
+    cursor: pointer;
+    background-color: #D3D3D3;
+    color: black;
 }
 
 #irsyad-photos {
@@ -234,12 +246,12 @@ a {
 .p-contact-info {
     font-size: 18px;
     display: inline;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 .img-contact-info {
     height: 20px;
-    vertical-align:middle
+    vertical-align: middle;
 }
 
 .info {
@@ -258,14 +270,15 @@ a {
     margin-bottom: 10px;
 }
 
-.logo-follow-me {
+.img-follow-me {
     height: 20px;
     display: inline;
     box-sizing: border-box;
 }
 
-.instagram, .facebook {
-    padding-left: 10px;
+.img-follow-me:hover {
+    background-color: black;
+    border-radius: 10px;
 }
 
 /*  */
@@ -297,7 +310,6 @@ form {
     margin-left: 120px;
     font-size: 25px;
     display: block;
-    /* margin-top: 15px; */
 }
 
 label {
@@ -307,55 +319,89 @@ label {
 }
 
 input {
-    /* border-radius: 10px; */
-    height: 37px;
-    width: 290px;
     font-size: 18px;
     color: white;
     background: transparent;
     border: none;
     outline: none;
+    height: 37px;
+    width: 290px;
 }
 
-.container-label-name {
+
+.container-name {
     background-color: #800020;
-    width: 512px;
+    width: 502px;
     height: 43px;
     border-radius: 10px;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
-#label-name {
+#name {
     margin-left: 120px;
+}
+
+.container-phone-number {
+    background-color: #800020;
+    width: 502px;
+    height: 43px;
+    border-radius: 10px;
+    padding-left: 15px;
 }
 
 #phone-number {
     margin-left: 10px;
 }
 
+.container-email {
+    background-color: #800020;
+    width: 502px;
+    height: 43px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
 #email {
     margin-left: 127px;
 }
 
-textarea {
-    margin-left: 20px;
-    height: 100px;
-    width: 290px;
+.container-textarea {
+    background-color: #800020;
+    width: 502px;
+    height: 110px;
     border-radius: 10px;
+    padding-left: 15px;
+}
+
+textarea {
     font-size: 18px;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    width: 292px;
+    height: 100px;
     resize: none;
     vertical-align: top;
 }
 
-button {
+#button-submit-form {
+    /* border: 5px solid #800020; */
+    background-color: #800020;
+    color: white;
+    font-weight: bold;
     margin-top: 20px;
     margin-left: 413px;
     width: 100px;
+    border: 1px solid #800020;
     border-radius: 10px;
 }
 
-button:hover {
+#button-submit-form:hover {
     cursor: pointer;
+    background-color: white;
+    color: #800020;
 }
 
 /*  */

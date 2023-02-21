@@ -88,15 +88,15 @@
                     </li>
                 </ul>
                 
-                <h5 class="follow-me">Follow Me :</h5>
+                <h5 class="follow-me">Follow Me</h5>
                 <a href="https://github.com/irsyadalaudin" target="_blank">
-                    <img class="logo-follow-me github" src="./img/github.png" alt="">
+                    <img class="img-follow-me" src="./img/github.png" alt="">
                 </a>
                 <a href="https://instagram.com/irsyadaldhr?igshid=YmMyMTA2M2Y=" target="_blank">
-                    <img class="logo-follow-me instagram" src="./img/instagram.png" alt="">
+                    <img class="img-follow-me" src="./img/instagram.png" alt="">
                 </a>
                 <a href="https://www.facebook.com/irsyad.hariono?mibextid=LQQJ4d" target="_blank">
-                    <img class="logo-follow-me facebook" src="./img/facebook.png" alt="">
+                    <img class="img-follow-me" src="./img/facebook.png" alt="">
                 </a>
             </aside>
 
@@ -107,23 +107,28 @@
                     Please Check the audio Extension
                 </audio>
                 <form action="">
-                        <div class="container-label-name">
-                            <label>Name
-                                <input id="label-name" type="text" name="name" placeholder=":  Type Your Name">
-                            </label>
-                        </div>    
-                        <label>Phone Number :
-                            <input id="phone-number" type="tel" name="number" placeholder="Type Your Phone Number">
-                        </label>                        
-                        <label>Email :
-                            <input id="email" type="email" name="email" placeholder="Type Your Email">
-                        </label>    
-                        <label>Your Message :
-                            <textarea name="your message" rows="100" placeholder="Type Your Message"></textarea>
+                    <div class="container-name">
+                        <label>Name
+                            <input id="name" type="text" name="name" placeholder=":  Type Your Name">
                         </label>
-                            <button type="submit">Submit</button>
-                    </form>
-                
+                    </div>
+                    <div class="container-phone-number">
+                        <label>Phone Number
+                            <input id="phone-number" type="tel" name="number" placeholder=":  Type Your Phone Number">
+                        </label>
+                    </div>
+                    <div class="container-email">
+                        <label>Email
+                            <input id="email" type="email" name="email" placeholder=":  Type Your Email">
+                        </label>
+                    </div>
+                    <div class="container-textarea">
+                        <label>Your Message
+                            <textarea name="your message" rows="100" placeholder=":  Type Your Message"></textarea>
+                        </label>
+                    </div>
+                    <button id="button-submit-form" type="submit">Submit</button>
+                </form>                
             </div>
         </div>
     </main>
