@@ -288,8 +288,8 @@ audio {
 }
 
 form {
-    margin-left: 200px;
-    font-size: 18px;
+    margin-left: 140px;
+    font-size: 25px;
     display: block;
     /* margin-top: 15px; */
 }
@@ -304,19 +304,19 @@ input {
 }
 
 #label-name {
-    margin-left: 85px;
+    margin-left: 120px;
 }
 
 #phone-number {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 #email {
-    margin-left: 90px;
+    margin-left: 127px;
 }
 
 #your-message {
-    margin-left: 13px;
+    margin-left: 20px;
 }
 
 button {
