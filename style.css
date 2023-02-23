@@ -13,9 +13,9 @@ body {
 
 header {
     background-color: #800020;
-    display: grid;
+    display: flex;
     position: fixed;
-    grid-template-columns: repeat(4, 330px);
+    /* grid-template-columns: repeat(4, 330px); */
     grid-template-rows: 100%;
     padding-left: 150px;
     padding-right: 150px;
@@ -23,6 +23,15 @@ header {
     left: 0;
     right: 0;
     z-index: 10;
+
+    justify-content: center;
+    /* justify-items: center;
+    align-items: center;
+    align-content: center; */
+}
+
+h2 {
+    flex: 1;
 }
 
 h2 > a {
@@ -31,13 +40,14 @@ h2 > a {
 }
 
 nav {
-    grid-column-start: 2;
-    grid-column-end: 5;
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    flex: 3;
 }
 
 .ul-home {
     text-align: center;
-    margin: 25px 0 0 300px;
+    margin: 25px 0 0 320px;
 }
 
 .li-home {
@@ -54,33 +64,49 @@ a {
 
 /*  */
 #home {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(8, 100px);  /*  fit-content , minmax) */ 
+    min-height: 90vh;
+    /* display: grid;
+    grid-template-columns: repeat(8, 100px); 
     grid-template-rows: repeat(5, 100px);
     background-color: #C0C0C0;
+    align-content: center; */
+    background-color: #C0C0C0;
+    /* padding-left: 150px; */
+    margin-top: 77px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     align-content: center;
-    padding-left: 150px;
+}
+
+.container-home {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(5, 100px);
+    align-content: center;
+    margin-top: 130px;
+    margin-right: 15px;
 }
 
 #irsyad {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     align-self: end;
-    margin: 0;
     font-size: 100px;
     width: 600px;
+    margin: 0;
 }
 
 #fs {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-row-start: 2;
+    grid-row-end: 3;
     margin: 0;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: 40px;
     width: 400px;
     line-height: 55px;
@@ -88,12 +114,12 @@ a {
 
 #button-about-me {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 5;
-    align-self: center;
+    /* align-self: center;
     margin-top: 180px;
-    margin-left: 0px;
+    margin-left: 0px; */
     width: 150px;
     height: 30px;
     background-color: black;
@@ -110,15 +136,20 @@ a {
 }
 
 #irsyad-photos {
-    grid-column-start: 6;
+    /* grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 6;
-    justify-items: center;
-    align-items: center;
-    margin-top: 35px;
-    margin-left: 130px;
+    grid-row-end: 6; */
+    /* justify-items: center;
+    align-items: center; */
+    /* margin-top: 35px;
+    margin-left: 130px; */
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
     width: 622px;
+
+    /* float: right; */
 }
 
 /*  */
@@ -218,19 +249,22 @@ a {
 
 /*  */
 .contact-container {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 390px);
-    grid-template-rows: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px); */
+    display: flex;
 }
 
+/*  */
 #contact-info {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 3; */
     background-color: #DCDCDC;
     padding-left: 150px;
-    width: 400px;
+    /* width: 400px; */
+    flex: 1;
 }
 
 .ul-contact-info {
@@ -283,15 +317,16 @@ a {
 
 /*  */
 #contact-me {
-    grid-column-start: 2;
+    /* grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 3; */
     background-color: #C0C0C0;
-    margin-left: 160px;
+    /* margin-left: 160px;
     width: 735px;
     padding-right: 150px;
-    padding-left: 100px;
+    padding-left: 100px; */
+    flex: 2;
 }
 
 #contact-me > h2 {
@@ -302,12 +337,31 @@ a {
 }
 
 audio {
-    margin-left: 215px;
+    /* margin-left: 215px; */
     border-radius: 10px;
 }
 
+.wrapper-audio {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper-form {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
 form {
-    margin-left: 120px;
+    /* margin-left: 120px; */
     font-size: 25px;
     display: block;
 }
@@ -327,7 +381,6 @@ input {
     height: 37px;
     width: 290px;
 }
-
 
 .container-name {
     background-color: #800020;
@@ -403,6 +456,40 @@ textarea {
     background-color: white;
     color: #800020;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  */
 footer {

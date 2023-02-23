@@ -26,10 +26,14 @@
 
     <main>
         <div id="home">
-            <h1 id="irsyad">I'm Irsyad</h1>
-            <h3 id="fs">Full Stack Javascript Developer</h3>
-            <button href="#about-me" id="button-about-me">More About Me...</button>
-            <img id="irsyad-photos" src="./img/irsyad.png" alt="irsyad">
+            <div class="container-home">
+                <h1 id="irsyad">I'm Irsyad</h1>
+                <h3 id="fs">Full Stack Javascript Developer</h3>
+                <button href="#about-me" id="button-about-me">More About Me...</button>
+            </div>
+            <div class="container-photos">
+                <img id="irsyad-photos" src="./img/irsyad2.PNG" alt="irsyad">
+            </div>
         </div>
 
         <div id="about-me">
@@ -87,7 +91,6 @@
                         <span>www.irsyadalaudin.com</span>
                     </li>
                 </ul>
-                
                 <h5 class="follow-me">Follow Me</h5>
                 <a href="https://github.com/irsyadalaudin" target="_blank">
                     <img class="img-follow-me" src="./img/github.png" alt="">
@@ -99,38 +102,43 @@
                     <img class="img-follow-me" src="./img/facebook.png" alt="">
                 </a>
             </aside>
-
             <div id="contact-me">
                 <h2>Contact Me</h2>
-                <audio controls>
-                    <source src="./audio/sound_me.mp3" type="audio/mp3"> 
-                    Please Check the audio Extension
-                </audio>
-                <form action="">
-                    <div class="container-name">
-                        <label>Name
-                            <input id="name" type="text" name="name" placeholder=":  Type Your Name">
-                        </label>
-                    </div>
-                    <div class="container-phone-number">
-                        <label>Phone Number
-                            <input id="phone-number" type="tel" name="number" placeholder=":  Type Your Phone Number">
-                        </label>
-                    </div>
-                    <div class="container-email">
-                        <label>Email
-                            <input id="email" type="email" name="email" placeholder=":  Type Your Email">
-                        </label>
-                    </div>
-                    <div class="container-textarea">
-                        <label>Your Message
-                            <textarea name="your message" rows="100" placeholder=":  Type Your Message"></textarea>
-                        </label>
-                    </div>
-                    <button id="button-submit-form" type="submit">Submit</button>
-                </form>                
+                <div class="wrapper-audio">
+                    <audio controls>
+                        <source src="./audio/sound_me.mp3" type="audio/mp3"> 
+                        Please Check the audio Extension
+                    </audio>
+                </div>
+                <div class="wrapper-form">
+                    <form action="">
+                        <div class="container-name">
+                            <label>Name
+                                <input id="name" type="text" name="name" placeholder=":  Type Your Name">
+                            </label>
+                        </div>
+                        <div class="container-phone-number">
+                            <label>Phone Number
+                                <input id="phone-number" type="tel" name="number" placeholder=":  Type Your Phone Number">
+                            </label>
+                        </div>
+                        <div class="container-email">
+                            <label>Email
+                                <input id="email" type="email" name="email" placeholder=":  Type Your Email">
+                            </label>
+                        </div>
+                        <div class="container-textarea">
+                            <label>Your Message
+                                <textarea name="your message" rows="100" placeholder=":  Type Your Message"></textarea>
+                            </label>
+                        </div>
+                        <button id="button-submit-form" type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
+
+
     </main>
 
     <footer>
